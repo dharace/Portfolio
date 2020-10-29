@@ -8,9 +8,9 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Dhara Hirpara",
-  title: "Hi all, I'm Dhara",
+  title: "Dhara Hirpara\n(Sr. Mobile Application Developer)",
   subTitle: emoji("A diligent Mobile Application Developer 🚀 who finds that the best way to come up with solutions is to think outside the box. My main focus is Android applications with Kotlin / JAVA / Flutter with customize SDK and libraries, although my insatiable curiosity has lead to other work such as, Hybrid mobile Application with Flutter, Android TV application."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1ZuCV2uNLUB-W57Q0_mIOkIxV1JTUHPVN/view?usp=drivesdk"
 };
 
 // Your Social Media Link
@@ -18,30 +18,36 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/dharace/",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/dhara-hirpara-b3937810b",
   gmail: "dhara.ce01@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  gitlab: "https://gitlab.com/dharace01",
+  facebook: "https://www.facebook.com/dhara.hirapara.14",
+  instagram: "https://www.instagram.com/_euphrosyne___"
+ // medium: "https://medium.com/@saadpasta",
+//  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
   // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "CRAZY MOBILE APPLICATION DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for your mobile applications"),
+    emoji("⚡ Integration of third party libraries such as Firebase/ Google clouds / Web services / Payment gateway / Audio-Video call/ Chat"),
+    emoji("⚡ Developed Hybrid app for Android/iOS using Flutter"),
+
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+   {
+        skillName: "Android",
+        fontAwesomeClassname: "fab fa-android"
+      },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
